@@ -25,7 +25,10 @@ var randomizer = function(){
 		    'links/listenup.html',
 		    'links/pootrap.html',
 		    'links/katana.html',
-		    'links/roseknife.html'
+		    'links/roseknife.html',
+		    'links/comfortwipe.html',
+		    'links/ginsuknife.html',
+		    'links/camisecret.html'
 		    ];
 		 
 		    var max = (links.length)
