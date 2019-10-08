@@ -151,6 +151,13 @@ iframe{
   width:90%;
 }
 
+iframe.realestate{
+  left: 0;
+  height: 40vh;
+  width: 60vh;
+  position: relative;
+}
+
 
 #form{
   height: 42em;
@@ -162,9 +169,8 @@ div.iframe-form{
   position: relative;
 }
 
-
 .content-button {
-	  margin-top: 15px;
+    margin-top: 15px;
     margin-bottom: 15px;
     width:50px;
     height:35px;
@@ -177,6 +183,25 @@ div.iframe-form{
     font-size: 20px;
 }
 
+.content-button-longer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width:80px;
+    height:35px;
+    background:#C0C0C0;
+    border-width:1px;
+    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+    padding:0;
+    text-align:center;
+    font-family:'VT323', monospace;
+    font-size: 20px;
+}
+
+.closure {
+  font-size: 12px;
+  color: #fff;
+  margin-top: 50px;
+}
 
 .wrapper {
 	text-align: center;
@@ -192,6 +217,8 @@ a:visited{
 	color: #9212db;
 	text-decoration: none;
 }
+
+
 
 
 
@@ -294,6 +321,8 @@ a:visited{
 #form{
   height: 180vh;
 }
+
+
 
 .wrapper {
   text-align: center;
